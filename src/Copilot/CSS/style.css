@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    background-color: #121212;
+}
+h3, p{
+    color: white;
+}
+
+
+/* header */
+.header-container{
+    padding: 5px 15px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#logo-copilot{ /* não entendi ainda como que ajusta*/
+    width: 100px;
+    height: auto; 
+}
+.header-container img{
+    height: 30px;
+    width: 70px;
+}
+.header-container nav{
+    flex-direction: row;
+}
+
+
+/* main */
+.main-container{
+    padding: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat-container{
+    width: 660px;
+    height: 400px;
+    font-size: 20px;
+}
+
+
+/* footer */
+.footer-container{
+    display: flex;
+    padding: 5px 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 10px;
+    width: 100%;
+
+}
+#writing{
+    background-color: rgb(105, 105, 105);
+    border-radius: 10px;
+    width: 660px;
+    height: 100px;
+    resize: none;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#writing::placeholder{
+    color: rgb(51, 51, 51);
+}
+#button-submit{
+    border-radius: 10px;
+    padding: 7px;
+    color: white;
+    background-color: rgba(111, 111, 111, 0.3);
+}

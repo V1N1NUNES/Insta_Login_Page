@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copilot</title>
+    <link rel="copilot-icon" href="assets/Microsoft-AI-Copilot-Logo-PNG.jpg">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    
+
+    <!-- header/cabeçalho-->
+    <header>
+        <div class="header-container">
+            <img src="assets/copiloo.png" alt="logo do copilot" id="logo-copilot">
+            <nav>
+                <h3 id="perfil-name">Vincius</h3>
+                <img src="assets/sidebar.svg" alt="">
+            </nav>
+        </div>
+    </header>
+
+    <!-- main/principal -->
+     <main class="main-container">
+        <div class="chat-container">
+            <div id="pergunta">
+                <h3>You</h3>
+                <p>test</p>
+            </div>
+            <div id="resp">
+                <h3>Copilot</h3>
+                <p>Hi there! How can I assist you today? 😊</p>
+            </div>
+        </div>
+     </main>
+
+     <!-- roda-pé -->
+     <footer class="footer-container">
+        <form>
+            <div class="write">
+                <textarea id="writing" placeholder="Ask me anything…"></textarea>
+                <button type="submit" id="button-submit">Enviar</button>     
+            </div>
+        </form>
+     </footer>
+
+
 </body>
 </html>

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copilot</title>
     <link rel="copilot-icon" href="assets/Microsoft-AI-Copilot-Logo-PNG.jpg">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
 
     <!-- header/cabeçalho-->
@@ -15,35 +17,36 @@
             <img src="assets/copiloo.png" alt="logo do copilot" id="logo-copilot">
             <nav>
                 <h3 id="perfil-name">Vincius</h3>
-                <img src="assets/sidebar.svg" alt="">
+                <img src="assets/sidebar.svg" alt="Sidebar icon" class="sidebar-icon">
             </nav>
         </div>
     </header>
 
     <!-- main/principal -->
-     <main class="main-container">
+    <main class="main-container">
         <div class="chat-container">
             <div id="pergunta">
-                <h3>You</h3>
-                <p>test</p>
+                <h3 class="user-name-text">You</h3>
+                <p class="message">test</p>
             </div>
             <div id="resp">
-                <h3>Copilot</h3>
-                <p>Hi there! How can I assist you today? 😊</p>
+                <h3 class="copilot-name-text">Copilot</h3>
+                <p class="message">Hi there! How can I assist you today? 😊</p>
             </div>
         </div>
-     </main>
+    </main>
 
-     <!-- roda-pé -->
-     <footer class="footer-container">
+    <!-- roda-pé -->
+    <footer class="footer-container">
         <form>
             <div class="write">
                 <textarea id="writing" placeholder="Ask me anything…"></textarea>
-                <button type="submit" id="button-submit">Enviar</button>     
+                <button type="submit" id="button-submit">Enviar</button>
             </div>
         </form>
-     </footer>
+    </footer>
 
 
 </body>
+
 </html>

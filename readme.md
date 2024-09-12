@@ -10,4 +10,3 @@ Este repositório tem como finalidade armazenar todos os protótipos e clonagem 
 
 - HTML5
 - CSS
-- ...

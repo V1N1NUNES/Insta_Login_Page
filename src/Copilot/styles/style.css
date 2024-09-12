@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #121212;
+}
+
+/* header */
+header .header-container {
+  padding: 5px 50px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .header-container #logo-copilot {
+  width: 100px;
+  height: auto;
+}
+header .header-container nav #perfil-name {
+  text-align: end;
+}
+header .header-container nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+header .header-container nav .sidebar-icon {
+  height: 30px;
+  width: 70px;
+}
+
+/* main */
+main {
+  padding: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 90px auto;
+}
+main .chat-container {
+  width: 1100px;
+  height: 400px;
+  font-size: 20px;
+  margin: 40px auto;
+  padding: 8px auto;
+}
+main .chat-container #pergunta,
+main .chat-container #resp {
+  margin-bottom: 30px;
+  padding: 8px;
+}
+main .chat-container #pergunta .user-name-text,
+main .chat-container #pergunta .copilot-name-text,
+main .chat-container #resp .user-name-text,
+main .chat-container #resp .copilot-name-text,
+main .chat-container #pergunta .message,
+main .chat-container #resp .message {
+  color: white;
+}
+
+/* footer */
+footer {
+  /*não consegui preencher o footer até o final da página*/
+  display: flex;
+  padding: 5px 30px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+  width: 100%;
+}
+footer form .write {
+  width: 800px;
+  height: auto;
+  padding: 10px;
+}
+footer form .write #writing {
+  background-color: rgb(105, 105, 105);
+  border-radius: 10px;
+  width: 660px;
+  height: 100px;
+  resize: none;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+footer form .write #writing::placeholder {
+  color: rgb(51, 51, 51);
+}
+footer form .write #button-submit {
+  border-radius: 10px;
+  border: 0;
+  padding: 7px;
+  color: white;
+  background-color: rgba(111, 111, 111, 0.3);
+}
